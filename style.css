@@ -357,3 +357,58 @@ html[dir="rtl"] .contact-arrow{grid-column:1}
   .visit-placeholder{min-height:72vw}
   .footer-logo-link{width:185px}
 }
+
+/* ===== MONOCHROME REFINEMENT ===== */
+:root{
+  --blue:#111111;
+  --blue-deep:#000000;
+  --gold:#111111;
+  --ink:#0b0b0b;
+  --muted:#686868;
+  --line:#dedede;
+  --paper:#ffffff;
+  --white:#ffffff;
+  --black:#090909;
+  --blue-bright:#111111;
+}
+body{background:#fff;color:#0b0b0b}
+.nav{background:#fff;border-bottom:1px solid #e5e5e5}
+.hero{background:#050505}
+.hero-image{background:
+ radial-gradient(ellipse at 72% 50%,rgba(255,255,255,.10),transparent 23%),
+ linear-gradient(125deg,#050505 0%,#181818 48%,#050505 100%)}
+.hero-image:after{background:linear-gradient(90deg,rgba(0,0,0,.86),rgba(0,0,0,.48) 45%,rgba(0,0,0,.10) 80%,rgba(0,0,0,.48))}
+.hero-glow-one,.hero-glow-two{background:rgba(255,255,255,.07)}
+.hero-car-shape{background:linear-gradient(155deg,#777 0%,#333 18%,#090909 58%,#292929 100%);box-shadow:0 40px 90px rgba(0,0,0,.82),inset 0 2px 12px rgba(255,255,255,.28)}
+.car-light{background:#fff;box-shadow:0 0 18px rgba(255,255,255,.7)}
+.hero-watermark{color:rgba(255,255,255,.035)}
+.marquee{background:#090909;color:#fff}
+.marquee b{color:#fff}
+.eyebrow span{background:#111}
+.circle-link:hover{background:#fff;color:#000}
+.circle-link:after{border-color:rgba(255,255,255,.45)}
+.intro,.services,.showcase,.visit{background:#fff}
+.service-visual,.showcase-large,.showcase-small,.visit-placeholder{background:
+ radial-gradient(circle at 72% 22%,rgba(255,255,255,.12),transparent 18%),
+ linear-gradient(145deg,#0b0b0b,#333 48%,#070707)}
+.service-card:nth-child(2) .service-visual{background:linear-gradient(145deg,#0a0a0a,#3b3b3b 48%,#080808)}
+.service-card:nth-child(3) .service-visual{background:linear-gradient(145deg,#080808,#272727 52%,#0b0b0b)}
+.statement{background:#080808;color:#fff}
+.statement-mark{background:#fff;box-shadow:none}
+.statement-mark span{border-color:#111}
+.experience{background:#f2f2f2}
+.visit-panel{background:#fff}
+.footer{background:#fff;color:#0b0b0b;border-top:1px solid #ddd}
+.footer:before{color:rgba(0,0,0,.035)}
+.footer>p{color:#777}
+.footer a{color:#0b0b0b}
+.footer-logo-link .detailer-logo text{fill:#111!important}
+.footer-logo-link .detailer-logo path[stroke]{stroke:#111!important}
+.brand-logo-link .detailer-logo text{fill:#111!important}
+.brand-logo-link .detailer-logo path[stroke]{stroke:#111!important}
+.intro-stamp{border-color:#cfcfcf}
+.intro-stamp:before{border-color:#e4e4e4}
+.contact-icon{background:#fff;border-color:#cfcfcf}
+.nav-cta{border-color:#111}
+.lang-toggle{color:#111}
+html[dir="rtl"] body{background:#fff;color:#0b0b0b}
