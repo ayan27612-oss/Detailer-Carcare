@@ -490,3 +490,18 @@ body{background:#fff;color:var(--ink)}
 .footer:before{color:rgba(0,0,0,.025)}
 .footer-links a:hover{color:var(--blue)}
 @media(max-width:520px){.brand-logo-link{width:175px}.footer-logo-link{width:190px}}
+
+/* ===== CONTACT / HERO CLEANUP ===== */
+.contact-actions{display:flex;align-items:center;gap:25px}
+.instagram-square{width:58px;height:58px;border:1px solid #d4d4d4;display:grid;place-items:center;color:#111;transition:background .25s,color .25s,border-color .25s}
+.instagram-square svg{width:23px;height:23px}
+.instagram-square:hover{background:#168fe8;border-color:#168fe8;color:#fff}
+.hero-bottom p{color:#111!important;opacity:1!important}
+.hero-bottom p:before{content:"";display:inline-block;width:2px;height:30px;background:#168fe8;margin-right:14px;vertical-align:middle}
+.hero-location{color:#333!important}
+.hero-side-note{color:#333!important}
+@media(max-width:520px){
+  .contact-actions{gap:18px;flex-wrap:wrap}
+  .instagram-square{width:54px;height:54px}
+  .hero-bottom p:before{height:24px;margin-right:10px}
+}
