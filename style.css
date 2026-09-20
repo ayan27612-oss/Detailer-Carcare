@@ -224,3 +224,14 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
 .service-media i{
   display:none !important;
 }
+
+
+/* Responsive hero: keep the same editorial flow on desktop and mobile */
+@media(min-width:901px){
+  .hero{min-height:auto;display:block}
+  .hero-grid{grid-template-columns:1fr;min-height:auto}
+  .hero-copy{min-height:620px;padding:8vw 8vw 6vw;justify-content:center}
+  .hero-visual{min-height:0;height:auto;aspect-ratio:16 / 7}
+  .car-visual{inset:0;width:100%;height:100%;right:auto;bottom:auto}
+  .hero-image{width:100%;height:100%;object-fit:cover;object-position:68% center;transform:none}
+}
