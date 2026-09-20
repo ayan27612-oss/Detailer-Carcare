@@ -190,3 +190,26 @@ html[dir="rtl"] .nav-cta span,html[dir="rtl"] .button span{margin-left:0;margin-
 @media(max-width:520px){
   .lang-toggle{font-size:9px}
 }
+
+.contact-list{margin-top:42px;border-top:1px solid var(--line)}
+.contact-item{display:grid;grid-template-columns:54px 1fr auto;align-items:center;gap:16px;padding:17px 0;border-bottom:1px solid var(--line);transition:opacity .2s,transform .2s}
+.contact-item:hover{opacity:.7;transform:translateX(3px)}
+.contact-icon{width:46px;height:46px;border:1px solid #cfd4d7;border-radius:50%;display:grid;place-items:center}
+.contact-icon svg{width:22px;height:22px}
+.contact-detail{display:flex;flex-direction:column;gap:5px}
+.contact-detail small{font-size:8px;letter-spacing:.16em;color:var(--muted);font-weight:700}
+.contact-detail strong{font-size:14px;letter-spacing:-.01em}
+.contact-arrow{font-size:18px}
+.footer a{transition:opacity .2s}
+.footer a:hover{opacity:.6}
+html[dir="rtl"] .contact-item:hover{transform:translateX(-3px)}
+html[dir="rtl"] .contact-item{grid-template-columns:auto 1fr 54px}
+html[dir="rtl"] .contact-icon{grid-column:3}
+html[dir="rtl"] .contact-detail{grid-column:2}
+html[dir="rtl"] .contact-arrow{grid-column:1}
+@media(max-width:520px){
+  .contact-list{margin-top:35px}
+  .contact-item{grid-template-columns:48px 1fr auto;gap:12px}
+  .contact-icon{width:42px;height:42px}
+  .contact-detail strong{font-size:13px}
+}
