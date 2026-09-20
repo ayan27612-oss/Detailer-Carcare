@@ -33,7 +33,7 @@ revealTargets.forEach(el => {
 const languageButton = document.querySelector('.lang-toggle');
 const translations = {
   en: {
-    navServices: 'Services', navExperience: 'Experience', navContact: 'Contact', book: 'Book a visit',
+    navServices: 'Services', navExperience: 'Experience', navContact: 'Contact', heroLocation:'SHUWAIKH INDUSTRIAL / KUWAIT', since:'SINCE 2018', book: 'Book a visit',
     eyebrow: 'AUTOMOTIVE DETAILING', hero: 'WHERE<br><em>DETAILS</em><br>MATTER.',
     heroSub: 'Precision care for vehicles that deserve more than a quick clean.',
     standard: '01 / THE STANDARD', display: 'Clean is expected.<br><span>Exceptional is detailed.</span>',
@@ -53,7 +53,7 @@ const translations = {
     directions: 'Get directions', instagram:'INSTAGRAM', whatsapp:'WHATSAPP', call:'CALL DETAILER', footerServices:'Services', footerExperience:'Experience', footerContact:'Contact'
   },
   ar: {
-    navServices: 'الخدمات', navExperience: 'التجربة', navContact: 'تواصل معنا', book: 'احجز موعداً',
+    navServices: 'الخدمات', navExperience: 'التجربة', navContact: 'تواصل معنا', heroLocation:'الشويخ الصناعية / الكويت', since:'منذ 2018', book: 'احجز موعداً',
     eyebrow: 'العناية الاحترافية بالسيارات', hero: 'حيث<br><em>التفاصيل</em><br>تصنع الفرق.',
     heroSub: 'عناية دقيقة لسيارات تستحق أكثر من مجرد تنظيف سريع.',
     standard: '01 / المعايير', display: 'النظافة متوقعة.<br><span>والتميّز في التفاصيل.</span>',
@@ -80,7 +80,7 @@ function applyLanguage(lang){
   document.documentElement.dir=lang==='ar'?'rtl':'ltr';
   const set=(selector,value)=>{const el=document.querySelector(selector); if(el) el.innerHTML=value;};
   set('.nav-links a:nth-child(1)',t.navServices); set('.nav-links a:nth-child(2)',t.navExperience); set('.nav-links a:nth-child(3)',t.navContact);
-  set('.nav-cta',t.book+' <span>↗</span>'); set('.eyebrow', '<span></span> '+t.eyebrow);
+  set('.nav-cta',t.book+' <span>↗</span>'); set('.eyebrow', '<span></span> '+t.eyebrow); set('.hero-location',t.heroLocation); set('.hero-side-note span:last-child',t.since);
   set('.hero h1',t.hero); set('.hero-bottom p',t.heroSub); set('.section-kicker',t.standard);
   set('.display',t.display); set('.body-copy',t.intro);
   set('.services .section-kicker',t.services); set('.section-note',t.servicesNote);
