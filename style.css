@@ -412,3 +412,28 @@ body{background:#fff;color:#0b0b0b}
 .nav-cta{border-color:#111}
 .lang-toggle{color:#111}
 html[dir="rtl"] body{background:#fff;color:#0b0b0b}
+
+/* ===== FULL WHITE CANVAS ===== */
+.hero{background:#fff;color:#0b0b0b}
+.hero-image{background:#fff}
+.hero-image:after{background:linear-gradient(90deg,rgba(255,255,255,.98) 0%,rgba(255,255,255,.86) 40%,rgba(255,255,255,.20) 73%,rgba(255,255,255,.55) 100%)}
+.hero-image:before{background:linear-gradient(112deg,transparent 0 45%,rgba(0,0,0,.06) 46%,transparent 47% 62%,rgba(0,0,0,.05) 63%,transparent 65%)}
+.hero-content{color:#0b0b0b}
+.hero-location,.hero-corner,.hero-side-note{color:rgba(0,0,0,.48)}
+.hero-side-note i{background:linear-gradient(#111,transparent)}
+.hero-bottom p{color:#555;border-color:#111}
+.hero h1{text-shadow:none}
+.hero-watermark{color:rgba(0,0,0,.035)}
+.hero-corner span{color:rgba(0,0,0,.3)}
+.image-label{color:rgba(0,0,0,.42)}
+.hero-car-shape{box-shadow:0 35px 70px rgba(0,0,0,.20),inset 0 2px 12px rgba(255,255,255,.28)}
+.car-highlight{background:linear-gradient(90deg,transparent,rgba(255,255,255,.7),transparent)}
+.circle-link{border-color:#111;color:#111}
+.circle-link:hover{background:#111;color:#fff}
+.circle-link:after{border-color:#111}
+.statement{background:#fff;color:#0b0b0b;border-top:1px solid #ddd;border-bottom:1px solid #ddd}
+.statement-small,.statement-copy{color:#686868}
+.statement-mark{background:#111}
+.statement-mark span{border-color:#fff}
+.statement:after{background:linear-gradient(90deg,#ddd,transparent)}
+.footer{background:#fff;color:#0b0b0b}
