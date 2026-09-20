@@ -173,3 +173,14 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
     object-position:68% center;
   }
 }
+
+
+/* Tighten the transition from the standard section into services */
+.intro{
+  padding-bottom:60px;
+}
+@media(max-width:560px){
+  .intro{
+    padding-bottom:36px;
+  }
+}
