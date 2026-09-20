@@ -206,3 +206,11 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
 .gallery-card:not(.large):not(.blue)>strong{
   color:#fff;
 }
+
+
+/* Service photo overlays: use white type on the dark vehicle imagery */
+.service-media span,
+.service-media strong{
+  color:#fff !important;
+  text-shadow:0 1px 10px rgba(0,0,0,.35);
+}
