@@ -159,3 +159,17 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
 .visual-label.bottom span{
   color:#fff;
 }
+
+
+/* Hero image emphasis */
+.hero-image{
+  object-fit:cover;
+  object-position:68% center;
+  transform:scale(1.08);
+}
+@media(max-width:560px){
+  .hero-image{
+    transform:scale(1.1);
+    object-position:68% center;
+  }
+}
