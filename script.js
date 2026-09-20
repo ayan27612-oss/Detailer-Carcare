@@ -50,7 +50,7 @@ const translations = {
     finish: '04 / THE FINISH', finishP: 'Precision work, clean finishes and a closer look at what goes into every detail.',
     visit: '05 / VISIT DETAILER', visitTitle: 'Bring your<br><em>vehicle.</em>',
     visitP: 'Professional detailing in Shuwaikh Industrial, Kuwait. Book directly through WhatsApp or contact the team for service information and availability.',
-    directions: 'Get directions', footerServices:'Services', footerExperience:'Experience', footerContact:'Contact'
+    directions: 'Get directions', instagram:'INSTAGRAM', whatsapp:'WHATSAPP', call:'CALL DETAILER', footerServices:'Services', footerExperience:'Experience', footerContact:'Contact'
   },
   ar: {
     navServices: 'الخدمات', navExperience: 'التجربة', navContact: 'تواصل معنا', book: 'احجز موعداً',
@@ -70,7 +70,7 @@ const translations = {
     finish: '04 / اللمسة النهائية', finishP: 'عمل دقيق، لمسات نهائية نظيفة ونظرة أقرب على التفاصيل التي تدخل في كل خدمة.',
     visit: '05 / زوروا ديتيلر', visitTitle: 'أحضر<br><em>سيارتك.</em>',
     visitP: 'عناية احترافية بالسيارات في الشويخ الصناعية، الكويت. احجز مباشرة عبر واتساب أو تواصل معنا لمعرفة الخدمات والمواعيد المتاحة.',
-    directions: 'احصل على الاتجاهات', footerServices:'الخدمات', footerExperience:'التجربة', footerContact:'تواصل معنا'
+    directions: 'احصل على الاتجاهات', instagram:'إنستغرام', whatsapp:'واتساب', call:'اتصل بديتيلر', footerServices:'الخدمات', footerExperience:'التجربة', footerContact:'تواصل معنا'
   }
 };
 
@@ -94,7 +94,7 @@ function applyLanguage(lang){
   set('.facts div:nth-child(3) strong',t.care); set('.facts div:nth-child(3) small',t.careP);
   set('.showcase .section-kicker',t.finish); set('.showcase-head p',t.finishP);
   set('.visit .section-kicker',t.visit); set('.visit h2',t.visitTitle); set('.visit-copy > p',t.visitP);
-  set('.button-dark',t.book+' <span>↗</span>'); set('.text-link',t.directions+' <span>↗</span>');
+  set('.button-dark',t.book+' <span>↗</span>'); set('.text-link',t.directions+' <span>↗</span>'); set('.contact-item:nth-child(1) .contact-detail small',t.instagram); set('.contact-item:nth-child(2) .contact-detail small',t.whatsapp); set('.contact-item:nth-child(3) .contact-detail small',t.call);
   set('.footer-links a:nth-child(1)',t.footerServices); set('.footer-links a:nth-child(2)',t.footerExperience); set('.footer-links a:nth-child(3)',t.footerContact);
   languageButton.textContent=lang==='en'?'العربية':'English';
   localStorage.setItem('detailer-language',lang);
