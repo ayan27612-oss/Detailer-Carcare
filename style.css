@@ -191,3 +191,18 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
   color:#fff;
   text-shadow:0 1px 12px rgba(0,0,0,.25);
 }
+
+
+/* Editorial contrast: light areas use dark type, dark areas use white */
+.gallery-card.large>span{
+  color:#fff;
+}
+.gallery-card.large>strong{
+  color:#fff;
+}
+.gallery-card:not(.large):not(.blue)>span{
+  color:#111;
+}
+.gallery-card:not(.large):not(.blue)>strong{
+  color:#fff;
+}
