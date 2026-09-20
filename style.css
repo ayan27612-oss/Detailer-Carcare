@@ -213,3 +213,11 @@ html[dir="rtl"] .contact-arrow{grid-column:1}
   .contact-icon{width:42px;height:42px}
   .contact-detail strong{font-size:13px}
 }
+
+.brand-logo-link{display:block;width:168px;height:auto;line-height:0}
+.detailer-logo{display:block;width:100%;height:auto}
+.footer-logo-link{width:185px}
+@media(max-width:520px){
+  .brand-logo-link{width:145px}
+  .footer-logo-link{width:170px}
+}
