@@ -184,3 +184,10 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
     padding-bottom:36px;
   }
 }
+
+
+/* Gallery image typography */
+.gallery-card:not(.blue) strong{
+  color:#fff;
+  text-shadow:0 1px 12px rgba(0,0,0,.25);
+}
