@@ -147,3 +147,15 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
     aspect-ratio:16 / 9;
   }
 }
+
+
+/* Hero image labels */
+.visual-label{
+  color:#fff;
+}
+.visual-label.bottom{
+  border-top-color:rgba(255,255,255,.45);
+}
+.visual-label.bottom span{
+  color:#fff;
+}
