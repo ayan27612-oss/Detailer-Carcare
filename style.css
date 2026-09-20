@@ -217,3 +217,10 @@ html[dir=rtl] body{font-family:"Noto Kufi Arabic",var(--sans)}html[dir=rtl] .eye
   z-index:4;
   text-shadow:0 1px 10px rgba(0,0,0,.45);
 }
+
+/* Remove decorative placeholder geometry from real service photography */
+.service-media:before,
+.service-media:after,
+.service-media i{
+  display:none !important;
+}
